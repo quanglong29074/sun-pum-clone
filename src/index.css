@@ -1,0 +1,128 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(15px);
+    }
+    75% {
+        transform: translateX(-15px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none!important;
+}
+
+.scrollbar-hidden {
+    scrollbar-width: none!important;
+}
+
+.scrollbar-hidden {
+    -ms-overflow-style: none!important;
+}
+.custom-table {
+    background-color: #0f182b;
+    color: #0f182b;
+    border: none!important;
+}
+.custom-table .ant-table-thead > tr > th {
+    background-color: #0f182b!important;
+    border: none!important;
+    color: #ffffff;
+    font-size: 12px!important;
+
+}
+.custom-table .ant-table-tbody > tr > td {
+    background-color: #0f182b!important;
+    border: none!important;
+}
+.custom-table .ant-table {
+    border: none!important;
+}
+.custom-table .ant-table-thead > tr > th::before,
+.custom-table .ant-table-thead > tr > td::before {
+    display: none!important;
+}
+.ant-modal-content{
+    background-color: #1c1f26!important;
+}
+.ant-modal-title{
+    background-color: #1c1f26!important;
+}
+
+
+
+.mt-3 {
+    overflow-x: auto;
+}
+
+.mt-3::-webkit-scrollbar {
+    display: none;
+}
+
+div.ant-modal-content {
+    background-color: rgb(27 29 40) !important;
+    border: 1px solid white !important;
+}
+
+div.ant-modal-header {
+    background-color: rgb(27 29 40) !important;
+    color: white !important;
+    text-align: center;
+}
+
+div.ant-modal-title {
+    color: white !important;
+}
+
+.custom-pagination .ant-pagination-item {
+    background-color: rgba(92, 196, 201, 0.1); /* Nhạt hơn */
+    border-color: rgba(92, 196, 201, 0.2);
+}
+
+.custom-pagination .ant-pagination-item:hover {
+    background-color: rgba(92, 196, 201, 0.2);
+    border-color: rgba(92, 196, 201, 0.3);
+}
+
+.custom-pagination .ant-pagination-item-active {
+    background-color: rgba(92, 196, 201, 0.3);
+    border-color: rgba(92, 196, 201, 0.5);
+}
+
+.custom-pagination .ant-pagination-prev button,
+.custom-pagination .ant-pagination-next button {
+    color: #5CC4C9;
+    background-color: rgba(92, 196, 201, 0.1);
+}
+
+.custom-pagination .ant-pagination-prev:hover button,
+.custom-pagination .ant-pagination-next:hover button {
+    background-color: rgba(92, 196, 201, 0.2);
+    border-color: rgba(92, 196, 201, 0.3);
+}
+
+.custom-pagination .ant-pagination-item a {
+    color: #5CC4C9;
+}
+
+.custom-pagination .ant-pagination-disabled button {
+    color: rgba(92, 196, 201, 0.4) !important;
+    background-color: rgba(92, 196, 201, 0.05) !important;
+    border-color: rgba(92, 196, 201, 0.1) !important;
+}
+
