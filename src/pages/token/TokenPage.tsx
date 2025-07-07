@@ -46,7 +46,7 @@ const TokenPage: React.FC = () => {
     isLoadingToken ? <Skeleton active/> : (
       <div className='p-10'>
         <div className='text-white mb-4'>
-          {/*<Link to='/'>[go back]</Link>*/}
+          <Link to='/'>[go back]</Link>
         </div>
         <Row gutter={24}>
           <Col xl={16} lg={16} md={12} xs={24} sm={24} className='mb-4'>
